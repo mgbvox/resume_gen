@@ -1,6 +1,7 @@
 context/**/*
 target/**/*
 resume-base.md
+.DS_Store
 
 # Python-generated files
 .idea/
