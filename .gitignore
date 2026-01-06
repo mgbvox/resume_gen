@@ -1,0 +1,17 @@
+context/**/*
+target/**/*
+resume-base.md
+
+# Python-generated files
+.idea/
+.claude/
+.python-version
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv

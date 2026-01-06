@@ -1,0 +1,22 @@
+[project]
+name = "resume-gen"
+version = "0.1.0"
+description = "CLI tool for generating beautifully formatted PDF resumes from Markdown"
+readme = "README.md"
+authors = [
+    { name = "Matthew Billman", email = "mgbvox@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "markdown>=3.10",
+    "typer>=0.21.1",
+    "watchfiles>=1.1.1",
+    "weasyprint>=67.0",
+]
+
+[project.scripts]
+resume-gen = "resume_gen:main"
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
